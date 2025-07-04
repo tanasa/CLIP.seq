@@ -13,3 +13,5 @@ uropa \
 # regioneR: https://bioconductor.org/packages/devel/bioc/vignettes/regioneR/inst/doc/regioneR.html
 # ChIPseeker : https://bioconductor.org/packages/release/bioc/html/ChIPseeker.html
 # ChIPpeakAnno : https://www.bioconductor.org/packages/release/bioc/vignettes/ChIPpeakAnno/inst/doc/ChIPpeakAnno.html
+
+# ngsplot : https://github.com/shenlab-sinai/ngsplot
