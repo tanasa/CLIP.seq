@@ -15,3 +15,4 @@ uropa \
 # ChIPpeakAnno : https://www.bioconductor.org/packages/release/bioc/vignettes/ChIPpeakAnno/inst/doc/ChIPpeakAnno.html
 
 # ngsplot : https://github.com/shenlab-sinai/ngsplot
+# sparK: https://github.com/harbourlab/SparK
