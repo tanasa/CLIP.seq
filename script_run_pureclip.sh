@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pureclip \
 -i A27_13.Aligned.sortedByCoord.out.bam \
 -bai A27_13.Aligned.sortedByCoord.out.bam.bai \
