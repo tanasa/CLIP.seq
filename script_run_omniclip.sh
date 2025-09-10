@@ -123,3 +123,14 @@ docker run --rm -it \
   --bg-dat /data/A27_13_2In_2_bg_repaired.h5 \
   --clip-dat /data/A27_13_2_2_repaired.h5 \
   --out-dir /data/A27_13_2_2.h5.out
+
+# 8. Run OmniCLIP with --ign-diag (ignoring the diagnostic event) : 
+
+docker run --rm -it -v "/home/tanasa/16_hours_star_align_richi/A27_13_star_clam_bam/pooled_omniclip:/data" \
+kalasnty/omniclip_container:latest run_omniCLIP \
+--db-file /data/gencode.v48.basic.annotation.db \
+--bg-dat /data/A27_13_In.pool_final.NM.bam.out \
+--clip-dat /data/A27_13.pool_final.NM.bam.out \
+--out-dir /data/A27_13.pool_final.NM.omniclip.ign.diag \
+--ign-diag \
+--skip_diag_event_mdl
